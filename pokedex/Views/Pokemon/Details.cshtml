@@ -1,0 +1,34 @@
+﻿@model Pokedex.Models.PokemonDetails.Root
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+<hr />
+
+<div>
+    <label>
+        <i class="fa-solid fa-id-card-clip"></i>
+        Id: 
+        <span>@Model.id</span>
+    </label>
+    <br />
+    <label>
+        Nome: 
+        <span>@Model.name</span>
+    </label>
+    <br />
+    <label>
+        Altura: 
+        <span>@Model.height</span>
+    </label>
+    <br />
+    <label>
+        Experiência: 
+        <span>@Model.base_experience</span>
+    </label>
+    <br />
+
+
+</div>
