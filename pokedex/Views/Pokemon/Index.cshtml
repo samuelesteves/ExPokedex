@@ -1,6 +1,8 @@
-﻿@{
+﻿@model PokemonList
+
+@{
     ViewData["Title"] = "Index";
-    int i = 0;
+    int? i = Model.Page * 200;
 }
 
 <div class="container">
@@ -9,11 +11,10 @@
     </div>
 
     <div class="div-pokemons">
-        @foreach(var pokemon in Model)
+        @foreach(var pokemon in Model.Pokemons)
         {
             i++;
             <div class="card" name="@i" data-value="@i">
-                <!--Passar id pokemon quando clicar-->
                 <div class="card-inner">
                     <img class="card-avatar" src="@pokemon.Url" />
                     <br>

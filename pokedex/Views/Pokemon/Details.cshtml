@@ -4,10 +4,14 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Detalhes</h1>
+<h1 class="DetalhePoke">@Model.name</h1>
 <hr />
 
 <div>
+    <div class=@Model.types[0].type.name>
+        <img src="@Model.imageUrl" />
+    </div>
+    <br />
     <label>
         <i class="fa-solid fa-id-card-clip"></i>
         Id: 
@@ -29,6 +33,9 @@
         <span>@Model.base_experience</span>
     </label>
     <br />
-
+    <label>
+        Tipos:
+        <span>@Model.types[0].type.name</span>
+    </label>
 
 </div>

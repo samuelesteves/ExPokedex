@@ -5,3 +5,241 @@
 span{
     font-weight: 400;
 }
+
+.grass {
+    background-color: lightgreen;
+    align-self: center;
+    border: 1px solid lightgreen;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fire {
+    background-color: red;
+    align-self: center;
+    border: 1px solid red;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.water {
+    background-color: blue;
+    align-self: center;
+    border: 1px solid blue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flying {
+    background-color: cadetblue;
+    align-self: center;
+    border: 1px solid cadetblue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.normal {
+    background-color: gray;
+    align-self: center;
+    border: 1px solid gray;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poison {
+    background-color: purple;
+    align-self: center;
+    border: 1px solid purple;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fighting {
+    background-color: darkred;
+    align-self: center;
+    border: 1px solid darkred;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.psychic {
+    background-color: hotpink;
+    align-self: center;
+    border: 1px solid hotpink;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dragon {
+    background-color: deepskyblue;
+    align-self: center;
+    border: 1px solid deepskyblue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ghost {
+    background-color: cornflowerblue;
+    align-self: center;
+    border: 1px solid cornflowerblue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark {
+    background-color: mediumpurple;
+    align-self: center;
+    border: 1px solid mediumpurple;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ground {
+    background-color: orangered;
+    align-self: center;
+    border: 1px solid orangered;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fairy {
+    background-color: pink;
+    align-self: center;
+    border: 1px solid pink;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rock {
+    background-color: ghostwhite;
+    align-self: center;
+    border: 1px solid ghostwhite;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eletric {
+    background-color: yellow;
+    align-self: center;
+    border: 1px solid yellow;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bug {
+    background-color: forestgreen;
+    align-self: center;
+    border: 1px solid forestgreen;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ice {
+    background-color: cadetblue;
+    align-self: center;
+    border: 1px solid cadetblue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steel {
+    background-color: dodgerblue;
+    align-self: center;
+    border: 1px solid dodgerblue;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DetalhePoke {
+    text-transform: uppercase;
+}

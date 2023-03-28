@@ -279,6 +279,7 @@ namespace Pokedex.Models
             public List<Stat> stats { get; set; }
             public List<Type> types { get; set; }
             public int weight { get; set; }
+            public string imageUrl { get; set; }
         }
 
         public class RubySapphire
@@ -334,10 +335,10 @@ namespace Pokedex.Models
         public class Type
         {
             public int slot { get; set; }
-            public Type type { get; set; }
+            public TypeInfo type { get; set; }
         }
 
-        public class Type2
+        public class TypeInfo
         {
             public string name { get; set; }
             public string url { get; set; }

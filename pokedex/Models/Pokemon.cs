@@ -2,6 +2,14 @@
 
 namespace pokedex.Models
 {
+
+    public class PokemonList
+    {
+        public List<Pokemon> Pokemons { get; set; } = new List<Pokemon>();
+
+        public int? Page { get; set; }
+    }
+
     public class Pokemon
     {
         [JsonPropertyName("name")]
